@@ -149,7 +149,7 @@ app-attractive, app-contact {
     flex-direction: column;
   }
   .dest-active__cardsItems {
-    width: 100%;
+    width: 90% !important;
   }
   .contact {
     flex-direction: column;
