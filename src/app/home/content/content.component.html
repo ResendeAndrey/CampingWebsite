@@ -1,0 +1,27 @@
+<main class="content-total">
+  <app-attractive></app-attractive>
+  <div class="dest-activ container">
+    <div class="dest-activ__tittle">
+        <img src="../../../assets/img/destination.svg" alt="" class="dest-activ__title-img">
+        <h2> Explorar destinos & atividades </h2>
+    </div>
+    <div class="dest-activ__cards">
+      <div *ngFor="let item of items, let i = index" class="dest-active__cardsItems" >
+        <div class="card-image">
+          <img src={{item.image}} alt="" class="image-itemsCard">
+          <span> <img (click)="handleClickHeartIcon(i, items)" [src]="item.heart === true ? '../../../assets/img/heart_full.png' : '../../../assets/img/heart.svg'" alt="" class="heart-icon"></span>
+          <p>R$150/Noite</p>
+        </div>
+        <h3>{{item.title}}</h3>
+        <p>Reserve experiências de acampamento únicas</p>
+        <a href="">Visualizar</a>
+      </div>
+
+    </div>
+    <div class="dest-active__seemore">
+      <a href="">Ver mais</a>
+    </div>
+    <app-contact></app-contact>
+
+  </div>
+</main>

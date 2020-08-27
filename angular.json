@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "CampingWebsite"
+    }
+  },
+  "defaultProject": "CampingWebsite",
+  "cli": {
+    "analytics": false
+  }
 }

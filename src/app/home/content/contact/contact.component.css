@@ -1,0 +1,107 @@
+.contact {
+  width: 100%;
+  height: 24.4rem;
+  background: transparent linear-gradient(91deg, var(--unnamed-color-ffd2c6) 0%, #FFFFFF 100%) 0% 0% no-repeat padding-box;
+  box-shadow: 5px 10px 30px #3B37350D;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 9.4rem auto;
+}
+.contact-text {
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.contact-text h2 {
+  font-family: 'Archivo black', sans-serif;
+  font-size: 2.5rem;
+  color: var(--unnamed-color-3b3735);
+}
+.contact-text p {
+  width: 27.5rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  letter-spacing: 0;
+}
+.contact-text input {
+  width: 38.5rem;
+  height: 3.75rem;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 5px 10px 30px #3B37350D;
+  border-radius: 20px;
+  border: none;
+}
+.input-text {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.contact-text input::placeholder {
+  padding-left: 4.5rem;
+}
+input:focus {
+  outline: none;
+}
+.mail-icon {
+  position: absolute;
+  z-index: 2;
+  left: 1.87rem;
+}
+.input-text:focus-within .mail-icon {
+  display: none;
+}
+.send-icon {
+  position: absolute;
+  right: 15px;
+  background: var(--unnamed-color-e76f51) 0% 0% no-repeat padding-box;
+  border-radius: 20px;
+  height: 3.125rem;
+  width: 3.125rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.send-icon:hover {
+  cursor: pointer;
+}
+.contact-icon img {
+  width: 29.25rem;
+  height: 21.4rem;
+}
+
+
+
+@media screen and (max-width: 900px) {
+
+  .contact {
+    flex-direction: column;
+    height: 43rem;
+  }
+  .contact-text {
+    width: 90%;
+  }
+  .contact-text h2 {
+    text-align: center;
+  }
+  .contact-text p {
+    width: 300px;
+    text-align: center;
+    margin: 0 auto;
+
+  }
+  .contact-icon img {
+    width: 90%;
+    height: 90%;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .contact {
+    flex-direction: column;
+    height: 60rem;
+  }
+}

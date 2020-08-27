@@ -1,0 +1,78 @@
+.header-total {
+  width: 1920px;
+  height: 1080px;
+  background: transparent url('../../../assets/img/ben-duchac-3fJOXw1RbPo-unsplash.png') 0% 0% no-repeat padding-box;
+  border-radius: 0px 0px 200px 200px;
+  opacity: 0.85;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header-description__title {
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 5.06rem;
+  font-weight: 900;
+  width: 41.75rem;
+  text-align: center;
+  margin:  10rem auto -0 auto;
+  color: #fff;
+  line-height: 5.93rem;
+}
+.header-description__text {
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.1rem;
+  font-weight: 300;
+  width: 32.9rem;
+  text-align: center;
+  margin: 0 auto;
+}
+.header-description__button {
+  background: var(--unnamed-color-e76f51) 0% 0% no-repeat padding-box;
+  width: 12.8rem;
+  height: 3.125rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 25px;
+  margin: 3rem auto 0 auto;
+}
+.header-description__button a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.1rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 900px){
+
+  .header-total {
+    width: 100%;
+    background: transparent url('../../../assets/img/ben-duchac-3fJOXw1RbPo-unsplashapp.png') 0% 0% no-repeat padding-box;
+    height: 761px;
+  }
+  app-navbar {
+    width: 100%;
+  }
+  .header-description__title{
+    font-size: 45px;
+    width: 80%;
+    margin: 0 auto !important;
+    line-height: 50px;
+  }
+
+  .header-description__text {
+    font-size: 18px;
+    width: 70%;
+  }
+
+}
+@media screen and (max-width: 1400px) {
+  .header-total {
+    width: 100%;
+    background-size: 100% 100%;
+  }
+}

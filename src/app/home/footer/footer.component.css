@@ -1,0 +1,126 @@
+footer {
+  background: #F8E1DB 0% 0% no-repeat padding-box;
+  border-radius: 200px 200px 0px 0px;
+  height: 33rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.footer-flex {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.footer-left__text h3 {
+  font-family: 'Archivo Black', sans-serif;
+  font-weight: 500;
+  color: var(--unnamed-color-3b3735);
+  font-size: 1.1rem;
+  word-wrap: break-word;
+}
+.footer-left__text p {
+  width: 615px;
+  color: var(--unnamed-color-3b3735);
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 2.5rem;
+}
+
+.footer-left__apps h3 {
+  color: var(--unnamed-color-3b3735);
+  font-family: 'Archivo Black', sans-serif;
+  font-weight: 500;
+}
+.footer-left__appsFlex img:first-child {
+  margin-right: 15px;
+}
+.footer-right {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  height: 100%;
+}
+.footer-right__description {
+  display: flex;
+  flex-direction: column;
+  width: 14.25rem;
+}
+.footer-right__description h3 {
+  font-family: 'Archivo Black', sans-serif;
+  font-weight: 500;
+  font-size: 1.1rem;
+  color: var(--unnamed-color-3b3735);
+  text-align: left;
+}
+.footer-right__description p {
+  width: 9.4rem;
+  text-align: left;
+  font-family: 'Roboto Regular', sans-serif;
+  font-size: 16px;
+}
+.icon-gotop {
+  position: absolute;
+  top: -35px;
+  width: 3.75rem;
+  height: 3.75rem;
+  right: 0;
+  top: -90px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 5px 10px 30px #3B37350D;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-left__appsFlex img:hover, .icon-gotop:hover {
+  cursor: pointer;
+}
+@media screen and (max-width: 900px) {
+ footer {
+   height: 80rem;
+   margin-top: 5rem;
+ }
+ .footer-flex {
+   flex-direction: column;
+   align-items: center;
+   width: 90%;
+ }
+ .footer-left__text h3 {
+  width: 320px;
+  text-align: center ;
+  margin: 0 auto;
+ }
+ .footer-left__text p {
+  word-wrap: break-word;
+  text-align: center;
+  width: 90%;
+ }
+ .footer-left__apps {
+   text-align: center;
+ }
+ .footer-right {
+   flex-wrap: wrap;
+   align-items: center;
+ }
+ .footer-right__description {
+  width: 177px;
+ }
+ .icon-gotop {
+   top: -130px !important;
+   right: 135px !important;
+}
+}
+
+@media screen and (max-width: 1300px) {
+  footer {
+    height: 80rem;
+  }
+  .icon-gotop {
+    top: -210px;
+    right: 150px;
+  }
+  .footer-right {
+    flex-direction: column;
+  }
+}
