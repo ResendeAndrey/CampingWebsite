@@ -56,7 +56,9 @@ footer {
 .footer-right__description p {
   width: 9.4rem;
   text-align: left;
-  font-family: 'Roboto Regular', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: var(--unnamed-color-3b3735);
   font-size: 16px;
 }
 .icon-gotop {
