@@ -48,10 +48,11 @@ app-attractive, app-contact {
   align-items: center;
   justify-content: space-around;
   height: 100%;
-  width: 25%;
+  width: 23%;
   height: 29rem;
   background: #fff 0% 0% no-repeat padding-box;
   border-radius: 20px;
+  margin: 10px;
 }
 .dest-active__cardsItems:hover {
   cursor: pointer;
